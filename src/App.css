@@ -1,0 +1,33 @@
+.body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calc {
+    display: grid;
+    width: 800px;
+    height: 400px;
+    grid-template: repeat(4, 4fr) / repeat(3, 4fr) 50px;
+}
+.calc button {
+    margin: 1%;
+    font-size: 30px;
+}
+
+.output {
+    width: 800px;
+    height:50px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-bottom: 0.2rem;
+    display: grid;
+    grid-template: 100% / 10% 40% 40% 10%;
+}
+
+.output span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
